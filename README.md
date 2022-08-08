@@ -18,5 +18,17 @@ A program using Goodreads data to suggest books to read
 2) Create Book List
 3) Recommend Books
 
-### Search
-see Search file
+### Search Engine
+
+Creating a Term Frequency Matrix - takes all the unique words across all titles and turns them into a column in the Matrix
+
+Go through each title - if the word exists in the title, add a 1
+
+Rows are the book titles
+Columns are the terms
+
+Inverse Document Frequency - make words that appear infrequently more meaningful.
+Log(number_of_titles / number_of_titles_word_appears)
+
+Term Frequency matrix * Inverse Document Frequency matrix
+
