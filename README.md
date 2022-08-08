@@ -20,6 +20,8 @@ A program using Goodreads data to suggest books to read
 
 ### Search Engine
 
+see search.ipynb
+
 Creating a Term Frequency Matrix - takes all the unique words across all titles and turns them into a column in the Matrix
 
 Go through each title - if the word exists in the title, add a 1
@@ -31,4 +33,16 @@ Inverse Document Frequency - make words that appear infrequently more meaningful
 Log(number_of_titles / number_of_titles_word_appears)
 
 Term Frequency matrix * Inverse Document Frequency matrix
+
+### Recommendations
+
+see recommendations.ipynb
+
+## Part two overview
+
+1) Find Similar Users
+2) Create Matrix
+3) Recommend Books
+
+###
 
