@@ -53,6 +53,10 @@ Creating a user/book matrix:
 Every row will be a different user, every colum will be a different book, the cells will contain the user's rating of a book
 
 
+## Further improvements
 
+Create additional Quick Database diagrams
+Add the my_ratings file
+Add a formatting file for the goodreads_export data
 
 
