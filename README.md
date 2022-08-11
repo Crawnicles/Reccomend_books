@@ -55,8 +55,8 @@ Every row will be a different user, every colum will be a different book, the ce
 
 ## Further improvements
 
-Create additional Quick Database diagrams
-Add the my_ratings file
-Add a formatting file for the goodreads_export data
+- Create additional Quick Database diagrams
+- Add the my_ratings file
+- Add a formatting file for the goodreads_export data
 
 
