@@ -3,6 +3,11 @@ A program using Goodreads data to suggest books to read
 
 # Steps
 
+1) Download data
+2) Create a search, make a list of books
+3) Create the recommendations 
+4) Filter the recommendations
+
 ## Download book data
 * Go to https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/books
 * Download book data from https://drive.google.com/uc?id=1LXpK1UfqtP89H1tYy0pBGHjYk8IhigUK
@@ -12,15 +17,10 @@ A program using Goodreads data to suggest books to read
 * Download https://drive.google.com/open?id=1zmylV7XW2dfQVCLeg1LbllfQtHD2KUon
 * Download https://drive.google.com/uc?id=1CHTAaNwyzvbi1TR08MJrJ03BxA266Yxr
 
-## Using the Data
-
-1) Search For Books
-2) Create Book List
-3) Recommend Books
 
 ### Search Engine
 
-see search.ipynb
+- [Search](./search.ipynb)
 
 Creating a Term Frequency Matrix - takes all the unique words across all titles and turns them into a column in the Matrix
 
@@ -34,15 +34,25 @@ Log(number_of_titles / number_of_titles_word_appears)
 
 Term Frequency matrix * Inverse Document Frequency matrix
 
+![image](./images/search_data.png)
+
 ### Recommendations
 
-see recommendations.ipynb
+- [Recommendations](./recommendations.ipynb)
 
-## Part two overview
+
+### Collaborative Filtering
 
 1) Find Similar Users
 2) Create Matrix
 3) Recommend Books
 
-###
+
+Creating a user/book matrix:
+
+Every row will be a different user, every colum will be a different book, the cells will contain the user's rating of a book
+
+
+
+
 
