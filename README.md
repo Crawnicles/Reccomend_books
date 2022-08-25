@@ -1,6 +1,8 @@
 # Reccomend_books
 A program using Goodreads data to suggest books to read
 
+![image](./images/George-peabody-library.jpeg)
+
 ## Why?
 
 Books give insight into a person unlike any other form of information. I have created this project because I have never found a great solution to integrating book knowledge over the long term. I find this occurs with audiobooks and podcasts as well which I consider to be a good source of information however it's equivalent to drinking a fruit smoothie rather than eating the whole fruit. The mind digests information better when it has to use the visual system to process every word rather than the audio system. Not only will this project find more books that I'll likely enjoy reading, it will be able to find rare books, it will give me a project that I can update throughout my life, it will represent my digital library, and it may turn into the knowledge repository that I use to integrate my findings from reading.
