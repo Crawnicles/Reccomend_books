@@ -60,10 +60,37 @@ Creating a user/book matrix:
 Every row will be a different user, every colum will be a different book, the cells will contain the user's rating of a book
 
 
+
+## Book Reccomendations
+
+
 ## Further improvements
 
 - Create additional Quick Database diagrams
 - Add the my_ratings file
 - Add a formatting file for the goodreads_export data
 
+# Books worth re-reading
 
+The Name of the Wind
+Poor Charlie's Almanack
+The War of Art
+Lord of the Rings trilogy
+Zen and the art of Motorcycle Maintenance
+In my own way
+The Hitchhiker's Guide to the Galaxy
+Sapiens
+Chronicles: Volume One
+
+
+# Authors to explore more
+
+Terry Pratchet
+Neil Gaiman
+Nicholas Taleb
+Walter Isaacson
+Will Macaskill
+Carlos Casteneda
+Ernest Hemingway
+Alan Watts
+Herman Hesse
